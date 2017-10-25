@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Bootstrap CDN -->
+    <title>Tuscany Villa</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Nunito" rel="stylesheet">
+    <link href="site.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!-- navagation bar, grey background, white font, tab options on the right -->
+    <nav class="navbar  navbar-static-top" id="navvy">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+            </div>
+            <div class="nav navbar-nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Logo</a></li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li> <a href="#about">LOCATIONS</a></li>
+                <li><a href="#contact">AMENITIES</a></li>
+                <li><a href="#contact">REVIEWS</a></li>
+                <li><a href="#blank">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- jumbotrom 9 columns wide and map outside of jumbotron in the same row--->
+
+    <div class="row container-fluid" id="jumbo">
+        <div class="mainSec jumbotron col-xs-6 col-sm-6 col-md-8 col-lg-8">
+            <h1>Tuscany Villa</h1>
+            <h2>We specialize in relaxation</h2>
+        </div>
+        <div class="mapOfItaly col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img id="img1" src="Content/mapofitalyedit.jpg" />
+        </div>
+    </div>
+
+    <!-- locations bar fill screen  =fullbar in CSS -->
+    <div class="row">
+        <div class="fullbar col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h2>LOCATIONS </h2>
+            <p>Some places for you to go</p>
+        </div>
+    </div>
+
+    <!-- 3 location rows with pictues make container fluid that contains all three rows-->
+    <!-- make columns responsive -->
+
+    <div class="container-fluid firstandthirdlocationrow">
+        <div class="textinlocationrows1and3 row col-xs-6 col-sm-6 col-md-8 col-lg-8">
+            <h3>Location #1</h3>
+            <p>È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile.</p>
+            <p><a href="reserve" class="btn-grey" role="button">Reserve Now!</a></p>
+        </div>
+        <div class="imagesinlocationrows1and3 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="Content/mountainsidesnow.jpeg" width="420" height="260" />
+        </div>
+    </div>
+
+    <!-- grey row -->
+
+    <div class="container-fluid secondrowoflocations">
+        <div class="imageinlocation2 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="Content/modernvillarectangle.jpeg" width="420" height="260" />
+        </div>
+        <div class="textinlocation2 row col-xs-6 col-sm-6 col-md-8 col-lg-8">
+            <h3>Location #2</h3>
+            <p>È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile.</p>
+            <p><a href="checkitout" class="btn-white" role="button">Check it out!</a></p>
+        </div>
+    </div>
+
+    <div class="container-fluid firstandthirdlocationrow">
+        <div class="textinlocationrows1and3 row col-xs-6 col-sm-6 col-md-8 col-lg-8">
+            <h3>Location #3</h3>
+            <p>È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile.</p>
+            <p><a href="joinus" class="btn-grey" role="button">Join us!</a></p>
+        </div>
+        <div class="imagesinlocationrows1and3 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+            <img src="Content/vineyardrow.jpeg" width="420" height="260" />
+        </div>
+    </div>
+
+
+
+    <!-- amenities row -->
+
+    <div class="row">
+        <div class="fullbar col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h2> AMENITIES </h2>
+            <p>Some stuff for you to enjoy</p>
+        </div>
+    </div>
+
+    <!-- 3 x 3 grid with five picutes abd four text blocks -->
+    <div class="container amenities">
+        <section class="row">
+            <div class="singleblockofgrid col-sm-4 receptionimage">
+                <h3 class="amenitiesformating">RECEPTIONS</h3>
+                <div class="greytranparentbox">
+                </div>
+            </div>
+            <div class="textblockgreyletters col-sm-4">
+                <h2>A VILLA FOR EVERY OCCASION</h2>
+                <p>Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere, apparendo come un normale blocco di testo leggibile.</p>
+                <p><a href="reserve" class="btn-grey" role="button">Check It Out!</a></p>
+            </div>
+            <div class="singleblockofgrid col-sm-4 poolsideimage">
+                <h3 class="amenitiesformating">
+                    RELAX BY
+                    <br>THE POOL
+                </h3>
+                <div class="greytranparentbox">
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="textblockgreyletters col-sm-4 ">
+                <h2>WHAT SETS US APART</h2>
+                <p>Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere, apparendo come un normale blocco di testo leggibile.</p>
+                <p><a href="reserve" class="btn-grey" role="button">Check It Out!</a></p>
+            </div>
+            <div class="singleblockofgrid col-sm-4 ivorybedroom">
+                <h3 class="amenitiesformating">
+                    FEELS LIKE
+                    <br>HOME
+                </h3>
+                <div class="greytranparentbox">
+                </div>
+            </div>
+            <div class="textblockgreyletters col-sm-4">
+                <h2>TALK TO STAFF</h2>
+                <p>Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere, apparendo come un normale blocco di testo leggibile.</p>
+                <p><a href="reserve" class="btn-grey" role="button">Check It Out!</a></p>
+            </div>
+        </section>
+        <section class="row">
+            <div class="singleblockofgrid col-sm-4 patioset">
+                <h3 class="amenitiesformating">
+                    ENJOY THE
+                    <br>VIEWS
+                </h3>
+                <div class="greytranparentbox">
+                </div>
+            </div>
+            <div class="textblockgreyletters col-sm-4">
+                <h2>BOOK YOUR VILLA</h2>
+                <p>Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere, apparendo come un normale blocco di testo leggibile.</p>
+                <p><a href="reserve" class="btn-grey" role="button">Check It Out!</a></p>
+            </div>
+            <div class="singleblockofgrid col-sm-4 patioleftside">
+                <h3 class="amenitiesformating">
+                    PRIVATE
+                    <br>DINING
+                </h3>
+                <div class="greytranparentbox">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- 12 column bar for customer reviews -->
+    <div class="row">
+        <div class="fullbar col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h2>REVIEWS </h2>
+            <hp>What our customers say</hp>
+        </div>
+    </div>
+
+    <!-- reivews / quotes with carousel -->
+    <div id="quoteCarousel" class="carousel slide" data-ride="carousel">
+        <!-- individual screens for slides -->
+        <ol class="carousel-indicators">
+            <li data-target="#quoteCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quoteCarousel" data-slide-to="1"></li>
+            <li data-target="#quoteCarousel" data-slide-to="2"></li>
+            <li data-target="#quoteCarousel" data-slide-to="3"></li>
+            <li data-target="#quoteCarousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Quotes for review slides for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <p>"My partner and I visited the Continentale at the recommendation of our friends. Whilst we were not staying as overnight guests at the hotel, we went to the rooftop bar to enjoy some cocktails and drinks in the October sunshine."</p>
+                <p>Dante Alighieri</p>
+            </div>
+
+            <div class="item">
+                <p>"The room we stayed in was even better than the pictures! We had a view of the Ponte Vecchio bridge right outside our window! The hotel location was also really great, walking distance to many places. "</p>
+                <p>Michelangelo di Lodovico Buonarroti Simoni</p>
+            </div>
+
+            <div class="item">
+                <p>"Everyone always strives to make every guest happy not only for the beauty of the hotel but especially with the simplicity of personal attention."</p>
+                <p>Leonardo di ser Piero da Vinci</p>
+            </div>
+
+            <div class="item">
+                <p>"The attention to detail and our preferences was surpassed with a champagne delivered to our room along with a handwritten note celebrating our anniversary."</p>
+                <p>Don Giovanni</p>
+            </div>
+
+            <div class="item">
+                <p>"An offer you can't refuse"</p>
+                <p>Don Vito Corleone</p>
+            </div>
+        </div>
+
+        <!-- Left and right controls movement    allows user to go back to previous slide or onto next slide-->
+        <a class="left carousel-control" href="#quoteCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#quoteCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <!-- 12 column bar for contact form -->
+    <div class="row">
+        <div class="fullbar col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h2> CONTACT </h2>
+            <p>We've got the answers</p>
+        </div>
+    </div>
+
+    <!-- contact form -->
+
+    <div class="container-fluid contactform">
+        <div class="row locationinfo">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Vicolo dell_Oro 6r, 50123, Florence, Italy</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 555-555-1212</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> info@Continentale.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row userinputinfo">
+                    <div class="col-sm-6 formfieldsforuserinput">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 userinputemail">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row userinputinfo">
+                    <div class="col-sm-12 form-group">
+                        <p><a href="reserve" class="btn-grey" role="button">Submit</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- copyright info-->
+    <footer class="container-fluid copyrightinfo">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>
+            Created by: TMJohnson1203
+            <br />No copyright
+        </p>
+    </footer>
+
+</body>
+</html>

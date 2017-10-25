@@ -1,0 +1,309 @@
+﻿body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    color: #474E5D;
+    width: 1380px;
+}
+
+
+#navy {
+    font-size: 28px;
+}
+
+nav#navvy.navbar.navbar-static-top {
+    background-color: #474E5D;
+    width: 1380px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#navvy a {
+    color: #FFFFFF;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.jumbotron {
+    color: #FFFFFF;
+    font-size: 65px;
+    text-align: center;
+}
+
+#jumbo {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 1380px;
+}
+
+
+.mainSec {
+    background-image: url('Content/villasandpool.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 373px;
+    width: 880px;
+}
+
+.mapOfItaly {
+    padding: 0px 0px 0px 0px;
+}
+
+img#img1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 373px;
+    width: 498px;
+}
+
+/*fullbar rows for locations, amenities, reviews and contact form. style h (copyright text smaller and italix)*/
+.fullbar {
+    color: #FFFFFF;
+    height: 120px;
+    width: 1400px;
+    background-color: #474E5D;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+/*three rows with pictures. rows 1 and 3 are the same. row 2 is grey in background
+all rows have buttons. buttons throughout are either grey or white. create css for each*/
+
+.firstandthirdlocationrow {
+    height: 300px;
+    width: 1390px;
+    margin: 40px 80px 0px 40px;
+    padding: 0px 0px 0px 0px;
+}
+
+/*locations 1 and 3 text color and formatting*/
+/*image of location in rows 1 and 3*/
+.imagesinlocationrows1and3 {
+    margin: 0px 0px 40px 0px;
+    padding: 0px 80px 0px 40px;
+}
+
+/*1st and 3rd button are the same.as are all of the buttons in the amenities section use CSS */
+
+.btn-grey {
+    background-color: #474E5D;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.secondrowoflocations {
+    height: 360px;
+    width: 1390px;
+    background-color: #474E5D;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #FFFFFF;
+}
+
+.textinlocation2 {
+    width: 880px;
+    margin-top: 40px;
+}
+
+.imageinlocation2 {
+    margin: 50px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+/*white button for grey backgrounds*/
+.btn-white {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+/*3 x 3 grid, 5 pictures, 4 text blocks, images as background*/
+
+.amenities {
+    background-color: #FFFFFF;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: #474E5D;
+}
+
+.singleblockofgrid {
+    background-color: #FFFFFF;
+    height: 300px;
+}
+
+.textblockgreyletters {
+    background-color: #FFFFFF;
+    height: 300px;
+    color: #474E5D;
+    align-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.receptionimage {
+    background-image: url('Content/reception.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.poolsideimage {
+    background-image: url('Content/poolside.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.ivorybedroom {
+    background-image: url('Content/ivorybedroom.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.patioset {
+    background-image: url('Content/patioset.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.patioleftside {
+    background-image: url('Content/patioleftside.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+}
+
+.amenitiesformating {
+    padding: 125px 0px 0px 0px;
+    align-content: center;
+}
+
+/*white text on semi-transparent grey block*/
+
+.greytranparentbox {
+    height: 125px;
+    width: 200px;
+    padding-top: 0px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: rgba(105, 95, 83, 0.6);
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+
+/*carousel with 5 quotes*/
+#quoteCarousel {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    height: 220px;
+    width: 1390px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+.carousel-indicators {
+    color: #474E5D;
+}
+
+.individualslides li {
+    color: #474E5D;
+    border: 5px solid #474E5D;
+    border-radius: 25px;
+}
+
+
+.leftcontrol {
+    background-image: none;
+}
+
+.rightcontrol {
+    background-image: none;
+}
+
+
+/*contact form*/
+
+.contactform {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    border-color: none;
+    background-image: none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 1390px;
+}
+
+.locationinfo {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    padding-left: 50px;
+}
+
+.userinputinfo {
+    background-color: #FFFFFF;
+    color: #474E5D;
+    margin: 0px 0px 22px 0px;
+    border: 1px 1px 1px 1px;
+}
+
+.formfieldsforuserinput {
+    padding: 5px;
+}
+
+.userinputemail {
+    margin: 5px 0px 22px 0px;
+    float: right;
+}
+
+
+/*footer with copyright info and glyphicon*/
+
+footer.copyrightinfo {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-right: 0px;
+    margin-left: auto;
+    background-color: #474E5D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    height: 200px;
+    text-align: center;
+    width: 1390px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
